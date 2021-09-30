@@ -8,7 +8,7 @@ from sklearn.linear_model import LogisticRegression
 from sklearn.naive_bayes import GaussianNB
 import numpy as np
 
-#filename = 'round1-todos.bib'
+#filename = 'round1-google.bib'
 filename = 'round1-google.bib'
 with open(filename) as bibFile:
     bibDb = bib.load(bibFile)
